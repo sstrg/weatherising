@@ -5,7 +5,7 @@ struct WeatherCard: View {
     var title: String
     var icon: String
     var gradient: [Color]
-    var destination: AnyView // Добавляем destination для навигации
+    var destination: AnyView 
     var width: CGFloat = 160
     
     var body: some View {
