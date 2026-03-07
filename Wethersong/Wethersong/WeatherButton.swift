@@ -4,7 +4,7 @@ struct WeatherButton: View {
     
     var image: String
     var color: Color
-    var size: CGFloat = 120 // Уменьшил размер для компактности
+    var size: CGFloat = 120
     
     var body: some View {
         Circle()
@@ -21,7 +21,6 @@ struct WeatherButton: View {
     }
 }
 
-// MARK: - Preview
 struct WeatherButton_Previews: PreviewProvider {
     static var previews: some View {
         HStack(spacing: 20) {
